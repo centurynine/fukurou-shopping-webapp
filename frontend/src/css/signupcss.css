@@ -1,0 +1,24 @@
+.btn-color-peach{
+  background-color: #FFDAB9;
+  color: #000000;
+}
+
+.btn-color-peach:hover{
+  background-color: #FFC0CB;
+  color: #000000;
+}
+
+.focus\:border-peach:focus {
+    --tw-border-opacity: 1;
+    border-color: rgba(255, 218, 185, var(--tw-border-opacity));
+}
+
+.focus\:outline-peach:focus {
+    --tw-border-opacity: 1;
+    outline: 2px solid rgba(255, 218, 185, var(--tw-border-opacity));
+    outline-offset: 2px;
+}
+
+.font-color-peach{
+  color: #F4A460;
+}

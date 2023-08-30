@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Open+Sans:wght@300&display=swap');
+* {
+  font-family: 'Kanit', sans-serif;
+  scroll-behavior: smooth;
+  scrollbar-color: #89B3F5 #fbf6f1;
+}
+
+.slick-center {
+  transform: translateX(0);
+}
+ 
+.slick-slide {
+  outline: none
+}
+.slick-slide img {
+  max-width: 1700px;
+  max-height: auto;
+  display: block;
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .slick-slide img {
+    max-width: 100%;
+    max-height: 70vh;
+  }
+}
+
+.bg-ivory{
+  background-color: #fbf6f1;
+}
+
+.text-color-lightblue{
+  color: #89B3F5;
+}
+
+.text-color-darkblue{
+  color: #5690f3;
+}
+
+.btn-color-lightblue{
+  background-color: #89B3F5;
+
+}
+
+.btn-color-lightblue:hover{
+  background-color: #5690f3;
+} 
+
+.unhidden{
+  display:contents;
+
+}
